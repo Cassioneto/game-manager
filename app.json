@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "game-room-manager",
+    "slug": "game-room-manager",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true,
+      "buildNumber": "1"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#0066CC",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false,
+      "package": "com.lordpro11.gameroommanager",
+      "versionCode": 1
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "51deaedf-95db-4131-90f0-0d7d1c7f0c62"
+      }
+    },
+    "owner": "lordpro11",
+    "plugins": [
+      "expo-sqlite",
+      "expo-notifications",
+      "expo-splash-screen"
+    ]
+  }
+}
